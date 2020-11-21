@@ -15,7 +15,7 @@ button2.addEventListener('click', function (event) {
   for (let index = 0; index < dados.length; index += 1) {
     if (dados[index].value === '') {
       event.preventDefault();
-      divErro.innerText = 'erro';
+      divErro.innerText = 'Campos inválidos';
     }
   }
 });
