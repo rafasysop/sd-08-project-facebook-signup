@@ -60,3 +60,6 @@ body {
 .gender {
   display: flex;
 }
+/* input[type=text] {
+  background: red;
+} */
